@@ -1,0 +1,139 @@
+.grid-container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas:
+        "a a a"
+        "b c c"
+        "b c c";
+    background-color: #FCFAF6;
+}
+#one {
+    grid-area: a;
+    height: 20vh;
+}
+#two {
+    grid-area: b;
+    width: 30vh;
+    font-family: serif;
+    position: fixed;
+    border: 2px solid aquamarine;
+    margin-right: 0px;
+    width: 180px;
+    border-radius: 10px;
+}
+#three {
+    grid-area: c;
+    margin-left: 260px;
+}
+form {
+    text-align: center;
+}
+div {
+    padding: 25px;
+    padding-right: 50px;
+    font-family: sans-serif;
+}
+p {
+    margin: 0px;
+}
+#indent {
+    text-indent: 250px;
+}
+.float {
+    float: right;
+    margin: 10px;
+    border: 2px solid #A3E4D7;
+    border-radius: 8px;
+}
+#link1 {
+    color: rgb(87, 37, 37);
+    text-decoration: none;
+}
+
+#link2 {
+    text-decoration: none;
+    color: rgb(87, 37, 37);
+    text-align: right;
+}
+#box1 {
+    margin: 0px;
+    padding: 1px;
+    width: 113px;
+   }
+
+#box2 {
+    margin: 0px;
+    padding: 1px;
+    width: 113px;
+   }
+#box3 {
+    margin: 0px;
+    padding: 1px;
+    width: 113px;
+   }
+#box4 {
+    margin: 0px;
+    padding: 1px;
+    width: 113px;
+}
+#box5 {
+    margin: 0px;
+    padding: 1px;
+    width: 113px;
+   
+}
+
+#box6 {
+
+    
+    margin: 0px;
+    padding: 1px;
+    width: 113px;
+    
+}
+
+#box7 {
+
+    
+    margin: 0px;
+    padding: 1px;
+    width: 113px;
+   
+}
+
+body {
+    margin-right: 100px;
+    margin-left: 50px;
+    border: 0px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    border-radius: 12px;
+
+
+}
+
+.indent {
+    text-indent: 150px;
+}
+
+#Population {
+    margin: 0px 0px 0px 300px;
+    border: 2px solid aqua;
+    border-radius: 12px;
+    width: 390px;
+   
+
+}
+
+#adjust {
+    background-color: #ECF0F1;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+a:hover {
+    color: aqua;
+}
